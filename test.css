@@ -1,0 +1,43 @@
+ /* transform */
+ div.item img:hover {
+    transform: scale(2);
+ }
+ 
+/* transition */
+div.item img{
+    transition: 1s;
+}
+
+/* Animation */
+@keyframes random{
+    20% {
+        background-color: blueviolet;
+    }
+    40% {
+        background-color: aqua;
+    }
+    60% {
+        background-color: rgb(192, 59, 103);
+    }
+    80% {
+        background-color: gold;
+    }
+}
+
+h1 {
+    background-color: darkkhaki;
+    animation:random 1s 10;
+    text-align: center;
+}
+/*  */
+div.item > div{
+    text-align:center;
+    width: 24%;
+    height: 300px;
+    border-style: solid;
+    border-color: brown;
+    background-color: gold;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+ }
