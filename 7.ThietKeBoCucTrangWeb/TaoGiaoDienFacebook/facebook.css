@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 65px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#asideOne {
+    background-color: red;
+    width: 30%;
+    height: 700px;
+    float: left;
+}
+
+section {
+    background-color: blueviolet;
+    width: 40%;
+    height: 700px;
+    float: left;
+}
+
+#asideTwo {
+    background-color: red;
+    width: 30%;
+    height: 700px;
+    float: left;
+}
