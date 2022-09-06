@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+div {
+    display: block;
+}
+.main > div {
+    margin: 1%;
+    border: 1px solid red;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+p {
+    padding-top: 10px;
+}
+.main {
+display: flex;
+}
+.containner{
+    margin: 20px;
+}
